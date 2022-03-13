@@ -1,0 +1,4 @@
+Bootstrap: docker
+From: sg2ada:latest
+Registry: localhost:5000
+
