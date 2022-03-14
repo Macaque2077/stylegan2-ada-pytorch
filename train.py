@@ -115,7 +115,7 @@ def setup_training_loop_kwargs(
         del training_set # conserve memory
     except IOError as err:
         raise UserError(f'--data: {err}')
-
+	
     if cond is None:
         cond = False
     assert isinstance(cond, bool)
