@@ -35,6 +35,8 @@ nvidia-smi
 
 nvcc --version
 
-python /nfs/scratch/stanlemich/projects/train.py --outdir "/nfs/scratch/stanlemich/data/out_2022" --data "projects/data/fish_train"  --cfg=auto --workers=1 --gpus=1  --batch=4 --metrics=fid50k 
+python /nfs/scratch/stanlemich/projects/train.py --outdir "/nfs/scratch/stanlemich/data/chch_out_2022" --data "projects/data/chch_train_data/train.zip"  --cfg=auto --workers=1 --gpus=1  --batch=4 --metrics=fid50k 
+
+#python train.py
 #--resume=/nfs/scratch2/stanlemich/data/out2/00000-fish_train-auto1-batch4/network-snapshot-001600.pkl
 
