@@ -6,7 +6,7 @@
 
 
 ## create stylegans dataset with 
-python dataset_tool.py --source=/nfs/scratch/stanlemich/data/augmented_chch --dest=/nfs/scratch/stanlemich/projects/data/chch_train_data/train.zip --width=256 --height=256
+python dataset_tool.py --source=/nfs/scratch2/stanlemich/data/augmented_trainsets --dest=/nfs/scratch2/stanlemich/data/augmented_trainsets/wt2_ALL_CROP_220622.zip --width=256 --height=256
 ### Venv_ds_gans is for the creation of the tf record with the dataset_tool.py
     
 ## run training

@@ -11,8 +11,8 @@ from skimage import img_as_ubyte
 import os
 
 # edit for directory with images you would like to augment
-image_dir = '../data/cropped_chch_data'
-out_dir = "../data/augmented_chch"
+image_dir = '/nfs/scratch2/stanlemich/data/crop_datasets/WT2_ALL_CROP_220622/WT3'
+out_dir = "../data/wt2_ALL_CROP_220622"
 
 lst_augmentations = []
 
